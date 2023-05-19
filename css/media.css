@@ -1,0 +1,6 @@
+@media (max-width: 500px) {
+    .hero {
+        height: 100vh;
+        background-position: 530px ;
+    }
+}
