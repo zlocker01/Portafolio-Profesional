@@ -59,15 +59,14 @@
           </div>
             <h1 class="mt-3 hero__text text-center">Hola, soy <spna class="enfasis">D</spna>iego <spna class="enfasis">B</spna>eristain </h1>
             <h3 class="mt-3 hero__text text-center">Desarrollador Web Frontend </h3>
-            <h5 class="mt-3 hero__text text-center text-capitalize">Diseñador enfocado en crear sitios web atractivos que generan ventas.</h5>
             <div class="d-flex justify-content-center">
-              <i class="mb-5 mt-3 fa-solid fa-laptop-code fa-3x"></i>
             </div>
           </div>
+          <canvas id="canvas"></canvas>
         </div>
       </div>
       </section>
-          
+      
       <section class="skills mt-5 container" id="tecnologias">
       <div class="row" data-aos="fade-down" data-aos-duration="3000" data-aos-offset="300" data-aos-once="true">
         <div class="col-12">
@@ -282,14 +281,21 @@
       </div>
     </footer>
 
-
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.149.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.149.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="js/animation.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/custom.js"></script>
     <script src="https://kit.fontawesome.com/e3b49f1903.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js"></script>
     <script>
       AOS.init();
     </script>
-
 </body>
 </html>
